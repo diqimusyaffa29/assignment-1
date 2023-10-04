@@ -9,28 +9,28 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     </head>
-    <body class="bg-[#F2F5F9]">
+    <body class="bg-[#F2F5F9] lg:mx-48">
         <!-- LOGO START -->
         <section id="logo" class="grid gap-8">
-            <div class="flex justify-center sm:flex sm:justify-start sm:ml-16">
-                <img src="/assets/logo.png" alt="logo" class="h-14" />
+            <div class="flex justify-center lg:flex lg:justify-start lg:ml-16">
+                <img src="/assets/logo.png" alt="logo" class="h-16 lg:h-20" />
             </div>
         </section>
         <!-- LOGO END -->
 
         <!-- NAV START -->
-        <section id="nav" class="sm:pt-8">
-            <div class="flex justify-center sm:flex sm:items-end sm:justify-end sm:mr-24">
-                <div class="flex items-center justify-center h-20">
+        <section id="nav" class="lg:pt-8 font-poppin lg:mr-9">
+            <div class="flex justify-center  lg:flex lg:items-end lg:justify-end lg:mr-24">
+                <div class="flex items-center justify-center h-20 rounded-3xl lg:shadow-lg">
                     <ul class="flex">
                         <li class="bg-[#FF9C1B] text-white rounded-2xl mx-5">
                             <a href="/home" class="flex flex-col items-center mx-3 my-3"><i class="fa-solid fa-house"></i><span>Home</span></a>
                         </li>
                         <li class="bg-[#E1E8EF] rounded-2xl mx-5">
-                            <a href="/resume" class="flex flex-col items-center mx-3 my-3"><i class="fa-solid fa-file-lines"></i><span>Home</span></a>
+                            <a href="/resume" class="flex flex-col items-center mx-3 my-3"><i class="fa-solid fa-file-lines"></i><span>Resume</span></a>
                         </li>
                         <li class="bg-[#E1E8EF] rounded-2xl mx-5">
-                            <a href="/contact" class="flex flex-col items-center mx-3 my-3"><i class="fa-solid fa-address-book"></i><span>Home</span></a>
+                            <a href="/contact" class="flex flex-col items-center mx-3 my-3"><i class="fa-solid fa-address-book"></i><span>Contact</span></a>
                         </li>
                     </ul>
                 </div>
@@ -39,11 +39,11 @@
         <!-- NAV END -->
 
         <!-- PROFILE START -->
-        <section id="profile">
-            <div class="flex justify-center bg-slate-600">
-                <div class="flex justify-center bg-orange-700 rounded-2xl flex-col">
+        <section id="profile" class="bg-[#FFFFFF] rounded-3xl mx-10 lg:flex lg:justify-center lg:w-80 lg:absolute lg:z-10 lg:top-[130px] font-raleway">
+            <div class="flex justify-center">
+                <div class="flex justify-center rounded-2xl flex-col">
                     <div class="flex justify-center">
-                        <img src="/assets/Picture1.png" alt="profile" class="h-40 pt-10" />
+                        <img src="/assets/Picture1.png" alt="profile" class="h-40 pt-7 lg:h-60 lg:mb-10" />
                     </div>
 
                     <div class="flex justify-center">
@@ -54,67 +54,110 @@
                         <h1 class="font-raleway">FullStack Developer</h1>
                     </div>
 
-                    <div class="flex justify-center">
-                        <ul class="flex">
-                            <li class="bg-[#F2F7FC]">
-                                <a href="" class="flex flex-col items-center mx-5 my-3"><i class="fab fa-facebook-f" style="color: #005eff"></i></a>
+                    <div class="flex justify-evenly">
+                        <ul class="flex gap-4 my-4">
+                            <li class="bg-[#f2f5f9] rounded-xl">
+                                <a href="" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center mx-5 my-3"><i class="fab fa-facebook-f" style="color: #005eff"></i></a>
                             </li>
-                            <li class="bg-[#F2F7FC]">
-                                <a href="" class="flex flex-col items-center mx-5 my-3"><i class="fab fa-linkedin-in" style="color: #0077b5"></i></a>
+                            <li class="bg-[#f2f5f9] rounded-xl">
+                                <a href="https://www.linkedin.com/in/diqimusyaffa/" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center mx-5 my-3"><i class="fab fa-linkedin-in" style="color: #0077b5"></i></a>
                             </li>
-                            <li class="bg-[#F2F7FC]">
-                                <a href="" class="flex flex-col items-center mx-5 my-3"><i class="fab fa-twitter" style="color: #1da1f2"></i></a>
+                            <li class="bg-[#f2f5f9] rounded-xl">
+                                <a href="" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center mx-5 my-3"><i class="fab fa-twitter" style="color: #1da1f2"></i></a>
                             </li>
-                            <li class="bg-[#F2F7FC]">
-                                <a href="" class="flex flex-col items-center mx-5 my-3"><i class="fab fa-github" style="color: #0b0909"></i></a>
+                            <li class="bg-[#f2f5f9] rounded-xl">
+                                <a href="https://github.com/diqimusyaffa29" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center mx-5 my-3"><i class="fab fa-github" style="color: #0b0909"></i></a>
                             </li>
                         </ul>
                     </div>
 
-                    <div class="grid grid-cols-3 font-raleway">
-                        <div class="flex items-center ml-[100px]">
-                            <i class="fas fa-mobile-alt" style="color: #f97315"></i>
-                        </div>
-                        <div class="grid grid-rows-2 ml-0">
-                            <div class="flex justify-start">
-                                <span>Phone</span>
-                            </div>
-                            <div class="flex justify-start">
-                                <span>+6281250456484</span>
+                    <div class="bg-[#f2f5f9] rounded-3xl grid gap-3 font-raleway px-2 mb-3 ">
+                        <div class="grid grid-cols-2 mt-2">
+                            <div class="flex justify-center items-center"><i class="fas fa-mobile-alt" style="color: #f97315"></i></div>
+                            <div class="grid grid-rows-2">
+                                <div class="text-[#86827E]">Phone</div>
+                                <div>+62081250456493</div>
                             </div>
                         </div>
-                        <div></div>
-
-                        <div class="flex items-center ml-24">
-                            <i class="far fa-envelope-open" style="color: #e19c1b"></i>
-                        </div>
-                        <div class="grid grid-rows-2">
-                            <div class="flex justify-start">
-                                <span>Email</span>
-                            </div>
-                            <div class="flex justify-start">
-                                <span>diqimusyaffa.business@gmail.com</span>
+                        <hr>
+                        <div class="grid grid-cols-2">
+                            <div class="flex justify-center items-center"><i class="far fa-envelope-open" style="color: #e19c1b"></i></div>
+                            <div class="grid grid-rows-2">
+                                <div class="text-[#86827E]">Email</div>
+                                <div>hqwrs4@gmail.com</div>
                             </div>
                         </div>
-                        <div></div>
-
-                        <div class="flex items-center ml-[98px]">
-                            <i class="fas fa-map-marker-alt" style="color: #e91414"></i>
-                        </div>
-                        <div class="grid grid-rows-2">
-                            <div class="flex justify-start">
-                                <span>Location</span>
-                            </div>
-                            <div class="flex justify-start col-span-2">
-                                <span>Banjarmasin, Indonesia</span>
+                        <hr>
+                        <div class="grid grid-cols-2">
+                            <div class="flex justify-center items-center"><i class="fas fa-map-marker-alt" style="color: #e91414"></i></div>
+                            <div class="grid grid-rows-2">
+                                <div class="text-[#86827E]">Location</div>
+                                <div>Jakarta, Indonesia</div>
                             </div>
                         </div>
-                        <div></div>
-
+                        <hr>
+                        <div class="font-raleway pb-6 pt-2">
+                            <div class="flex justify-center bg-[#FF9C1B] rounded-2xl mx-4 py-2 text-[#F2f7fc] gap-3">
+                                <div class="">
+                                    <a href=""><i class="fa-solid fa-download"></i></a>
+                                </div>
+                                <div class="">
+                                    <a href="/assets/Muhammad Shiddiqi Musyaffa'-resume English.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- PROFILE END -->
+
+        <!-- CONTENT START -->
+        <section class="bg-[#FFFFFF] rounded-3xl mx-10 px-2 font-poppin lg:relative lg:ml-96 text-justify ">
+            <div class="mt-5 pt-3">
+                <div class="flex">
+                    <h1 class="text-4xl ">ABOUT ME</h1>
+                    <hr />
+                </div>
+                <div class="">
+                    <span>Hello There! I'm thrilled to welcome you to my portfolio. I am a passionate and versatile full-stack developer with a keen interest in exploring the latest cutting edge technologies. My Journey in the world of web development has been nothing short of exhilarating, and I constantly strive to enchanve my skills and embrace emerging trends in the industry.</span>
+                </div>
+            </div>
+
+            <div class="pt-6 lg:h-[520px]">
+                <h2 class="text-3xl ">What I do!</h2>
+                <div class="grid grid-rows-4 gap-5 mt-6 lg:grid lg:grid-cols-2 lg:h-[850px]">
+                    <div class="bg-[#ffebd1] py-4 px-4 rounded-3xl">
+                        <div class="flex items-center pb-3 gap-2">
+                            <i class="fa-solid fa-code" style="color: #ff0000"></i>
+                            <h1>Web Development</h1>
+                        </div>
+                        <span>as a Developer, I find myselft most captivated by the power and flexibility of React.js. I'm always eager to dive into new projects that leverage React.js and discover innovative ways to create fast. scalable, and user-friendly applications.</span>
+                    </div>
+                    <div class="bg-[#f2f7fc] py-4 px-4 rounded-3xl">
+                        <div class="flex items-center pb-3 gap-2">
+                            <i class="fas fa-camera" style="color: #ff9c1a"></i>
+                            <h1>App Development</h1>
+                        </div>
+                        <span>With a fouces on user-centric design and cutting-edge technologies, I thrive on bulding intuitive and efficient apps that make a positive impact on people's lives. Let's turn ideas into reality and shape the future together.</span>
+                    </div>
+                    <div class="bg-[#f2f7fc] py-4 px-4 rounded-3xl">
+                        <div class="flex items-center pb-3 gap-2">
+                            <i class="fas fa-window-close" style="color: #ff0000"></i>
+                            <h1>UI/UX Designing</h1>
+                        </div>
+                        <span>Craftingvisually appealing and intuitive user interfaces that offer a delighful user experience is something I'm truly fanatic about</span>
+                    </div>
+                    <div class="bg-[#ffebd1] py-4 px-4 rounded-3xl">
+                        <div class="flex items-center pb-3 gap-2">
+                            <i class="fas fa-chalkboard-teacher" style="color: #ff9c1a"></i>
+                            <h1>Mentorship</h1>
+                        </div>
+                        <span>I have also found great joy in sharing my knowledge with ohers. Being a technical mentor allows me to give back to the community that has supported me throughout my career.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CONTENT END -->
     </body>
 </html>
